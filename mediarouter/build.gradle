@@ -3,7 +3,7 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:0.8.+'
+        classpath 'com.android.tools.build:gradle:0.10.+'
         classpath 'com.github.dcendents:android-maven-plugin:1.0'
     }
 }
@@ -11,7 +11,7 @@ buildscript {
 apply plugin: 'android-library'
 apply plugin: 'android-maven'
 
-version '0.1.0'
+version '0.1.1'
 group 'com.commonsware.cwac'
 
 repositories {
@@ -22,13 +22,9 @@ repositories {
 }
 
 dependencies {
-    compile ('com.android.support:appcompat-v7:19.0.1') {
-      exclude group: 'com.android.support', module: 'support-v4'
-    }
-    compile ('com.android.support:mediarouter-v7:19.0.1') {
-      exclude group: 'com.android.support', module: 'support-v4'
-    }
-    compile fileTree(dir: 'libs', include: '*.jar')
+    // compile ('com.android.support:appcompat-v7:19.0.1')
+    compile ('com.android.support:mediarouter-v7:19.0.1')
+    // compile fileTree(dir: 'libs', include: '*.jar')
 }
 
 android {
