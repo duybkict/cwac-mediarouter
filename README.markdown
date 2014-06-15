@@ -34,6 +34,9 @@ dependencies {
 Or, if you cannot use SSL, use `http://repo.commonsware.com` for the repository
 URL.
 
+**NOTE**: The JAR name, as of v0.1.2, has a `cwac-` prefix, to help distinguish
+it from other JARs.
+
 If you elect to clone this repo, or download a ZIP of this repo, and use it
 as a source-based library project, you will need to add your own copy of the
 `android-support-v4.jar` to your copy of `libs/` in the library project, as it
@@ -77,7 +80,7 @@ older devices, you should be using `appcompat` and the fragments backport anyway
 
 Version
 -------
-This is version v0.1.1 of this module, meaning it is a wee bit more than a proof
+This is version v0.1.2 of this module, meaning it is a wee bit more than a proof
 of concept, but not by all that much.
 
 Demo
@@ -115,6 +118,7 @@ the fence may work, but it may not.
 
 Release Notes
 -------------
+- v0.1.2: added `cwac-` JAR prefix, updated Gradle for Android plugin and dependencies, tightened up manifest
 - v0.1.1: removed `android-support-v4.jar` from `libs/` to improve Gradle compatibility
 - v0.1.0: initial release
 
