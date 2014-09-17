@@ -12,9 +12,6 @@ which point in time this library will be deprecated.
 
 Installation
 ------------
-This Android library project is 
-[available as a JAR](https://gihub.com/commonsguy/cwac-mediarouter/releases).
-
 This project is available as
 an artifact for use with Gradle. To use that, add the following
 blocks to your `build.gradle` file:
