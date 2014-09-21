@@ -12,10 +12,7 @@ which point in time this library will be deprecated.
 
 Installation
 ------------
-This Android library project is 
-[available as a JAR](https://gihub.com/commonsguy/cwac-mediarouter/releases).
-
-This project is also available as
+This project is available as
 an artifact for use with Gradle. To use that, add the following
 blocks to your `build.gradle` file:
 
@@ -34,8 +31,9 @@ dependencies {
 Or, if you cannot use SSL, use `http://repo.commonsware.com` for the repository
 URL.
 
-**NOTE**: The JAR name, as of v0.1.2, has a `cwac-` prefix, to help distinguish
-it from other JARs.
+Eclipse users will need to clone this repository, import the `mediarouter/` project
+into the Eclipse workspace, then attach that project as an Android library project
+to the app (Project > Properties > Android).
 
 If you elect to clone this repo, or download a ZIP of this repo, and use it
 as a source-based library project, you will need to add your own copy of the
