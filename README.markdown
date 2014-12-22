@@ -78,7 +78,7 @@ older devices, you should be using `appcompat` and the fragments backport anyway
 
 Version
 -------
-This is version v0.1.3 of this module, meaning it is a wee bit more than a proof
+This is version v0.1.4 of this module, meaning it is a wee bit more than a proof
 of concept, but not by all that much.
 
 Demo
@@ -116,6 +116,7 @@ the fence may work, but it may not.
 
 Release Notes
 -------------
+- v0.1.4: updated for Android Studio 1.0 and new AAR publishing system
 - v0.1.3: removed unused resources
 - v0.1.2: added `cwac-` JAR prefix, updated Gradle for Android plugin and dependencies, tightened up manifest
 - v0.1.1: removed `android-support-v4.jar` from `libs/` to improve Gradle compatibility
