@@ -7,13 +7,13 @@ repositories {
 }
 
 dependencies {
-    debugCompile project(':mediarouter')
-    releaseCompile 'com.commonsware.cwac:mediarouter:0.1.+'
+   debugCompile project(':mediarouter')
+   releaseCompile ('com.commonsware.cwac:mediarouter:0.1.+')
 }
 
 android {
-    compileSdkVersion 17
-    buildToolsVersion "19.1.0"
+    compileSdkVersion 21
+    buildToolsVersion "21.1.2"
 
     sourceSets {
         main {

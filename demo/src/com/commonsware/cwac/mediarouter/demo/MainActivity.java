@@ -16,13 +16,13 @@ package com.commonsware.cwac.mediarouter.demo;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.support.v7.media.MediaControlIntent;
-import android.support.v7.media.MediaRouteSelector;
-import android.support.v7.media.MediaRouter;
+import com.commonsware.cwac.mediarouter.media.MediaControlIntent;
+import com.commonsware.cwac.mediarouter.media.MediaRouteSelector;
+import com.commonsware.cwac.mediarouter.media.MediaRouter;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
-import com.commonsware.cwac.mediarouter.MediaRouteActionProvider;
+import com.commonsware.cwac.mediarouter.app.MediaRouteActionProvider;
 
 public class MainActivity extends Activity {
   private MediaRouteSelector selector=null;

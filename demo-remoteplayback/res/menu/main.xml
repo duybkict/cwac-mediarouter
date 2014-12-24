@@ -4,25 +4,25 @@
 	<item
 		android:id="@+id/route_provider"
 		android:title="@string/route_provider_title"
-		android:actionProviderClass="com.commonsware.cwac.mediarouter.MediaRouteActionProvider"
+		android:actionProviderClass="com.commonsware.cwac.mediarouter.app.MediaRouteActionProvider"
 		android:showAsAction="always"/>
 	<item
 		android:id="@+id/play"
 		android:icon="@android:drawable/ic_media_play"
 		android:title="@string/play"
 		android:visible="false"
-		app:showAsAction="always"/>
+		android:showAsAction="always"/>
 	<item
 		android:id="@+id/pause"
 		android:icon="@android:drawable/ic_media_pause"
 		android:title="@string/pause"
 		android:visible="false"
-		app:showAsAction="always"/>
+    android:showAsAction="always"/>
 	<item
 		android:id="@+id/stop"
 		android:icon="@drawable/ic_media_stop"
 		android:title="@string/stop"
 		android:visible="false"
-		app:showAsAction="always"/>
+    android:showAsAction="always"/>
 
 </menu>

@@ -2,7 +2,7 @@
 
 	<item
 		android:id="@+id/route_provider"
-		android:actionProviderClass="com.commonsware.cwac.mediarouter.MediaRouteActionProvider"
+		android:actionProviderClass="com.commonsware.cwac.mediarouter.app.MediaRouteActionProvider"
 		android:showAsAction="always"
 		android:title="@string/route_provider_title"/>
 
