@@ -8,7 +8,7 @@ repositories {
 
 dependencies {
     debugCompile project(':mediarouter')
-    releaseCompile 'com.commonsware.cwac:mediarouter:0.1.+'
+    releaseCompile 'com.commonsware.cwac:mediarouter:0.2.+'
 }
 
 android {
