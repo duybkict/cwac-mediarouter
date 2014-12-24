@@ -67,7 +67,11 @@ as the package for classes like `MediaRouteActionProvider`. Those classes
 all moved into the `com.commonsware.cwac.mediarouter.app` package, to
 better match the rest of `mediarouter-v7`.
 
-- You should remove your dependency on `mediarouter-v7`.
+- You should remove your dependency on `mediarouter-v7`. This, in turn,
+will require you to change your references to all `mediarouter-v7`
+classes to their counterparts in this library. For example, 
+`import android.support.v7.media.MediaRouter;` becomes
+`import com.commonsware.cwac.mediarouter.media.MediaRouter;`
 
 ## Dependencies
 
