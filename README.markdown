@@ -1,5 +1,8 @@
 # CWAC-MediaRouter: Going Where Google Declined To Go, For Some Reason...
 
+**NOTE**: This project has been discontinued, as it is no longer practical
+to backport the entirety of `mediarouter-v7`.
+
 This project offers a port of the `mediarouter-v7` Android
 library project, to work with
 native API Level 11+ fragments and the action bar. While `mediarouter-v7`
@@ -19,7 +22,7 @@ blocks to your `build.gradle` file:
 ```groovy
 repositories {
     maven {
-        url "https://repo.commonsware.com.s3.amazonaws.com"
+        url "https://s3.amazonaws.com/repo.commonsware.com"
     }
 }
 
